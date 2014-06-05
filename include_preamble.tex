@@ -1,0 +1,17 @@
+\documentclass [letterpaper,11pt] {article}
+\usepackage [left=0.75in, bottom=0.5in, top=0.5in, right=0.75in] {geometry}
+\usepackage {fancyhdr,marvosym,textcomp}
+
+\chead{}
+\lhead{}
+\rhead{}
+\lfoot{}
+\rfoot{}
+\cfoot{}
+\cfoot{\begin{small}{\thepage}  of 2\end{small}}
+
+\newenvironment{itemize1}{\begin{itemize} \setlength{\itemsep}{-0.5pt} \setlength{\parskip}{0pt} \setlength{\parsep}{0pt} \setlength{\topsep}{0pt} \setlength{\partopsep}{0pt}} {\end{itemize}}
+
+% change bullet to empty globally
+\renewcommand{\labelitemi}{} 
+\renewcommand{\labelitemii}{$\bullet$} 
