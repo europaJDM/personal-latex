@@ -6,3 +6,5 @@
 *.rtf
 *.docx
 *.synctex.gz
+/.idea
+*.iml
